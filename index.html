@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriSolutions - Modern Agriculture Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-seedling"></i>
+                <span>AgriSolutions</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#problems" class="nav-link">Problems</a></li>
+                <li><a href="#solutions" class="nav-link">Solutions</a></li>
+                <li><a href="#tools" class="nav-link">Tools</a></li>
+                <li><a href="#equipment" class="nav-link">Equipment</a></li>
+                <li><a href="#store" class="nav-link">Store</a></li>
+                <li><a href="#organic" class="nav-link">Organic Food</a></li>
+                <li><a href="#experts" class="nav-link">Experts</a></li>
+                <li><a href="#weather" class="nav-link">Weather</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Solving Real Agricultural Challenges</h1>
+                <p>Empowering farmers with innovative solutions to overcome modern agricultural problems through technology, knowledge, and sustainable practices.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('problems')">Explore Problems</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('solutions')">View Solutions</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <i class="fas fa-tractor"></i>
+                    <i class="fas fa-seedling"></i>
+                    <i class="fas fa-cloud-sun"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section id="problems" class="problems">
+        <div class="container">
+            <h2>Real Agricultural Problems</h2>
+            <p class="section-subtitle">Challenges facing modern agriculture and their impact on food security</p>
+            
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-thermometer-half"></i>
+                    </div>
+                    <h3>Climate Change</h3>
+                    <p>Unpredictable weather patterns, extreme temperatures, and irregular rainfall affecting crop yields and farming schedules.</p>
+                    <div class="problem-stats">
+                        <span class="stat">-15% yield reduction</span>
+                        <span class="stat">$50B annual losses</span>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Pest & Disease Management</h3>
+                    <p>Increasing resistance to pesticides, new invasive species, and crop diseases threatening food production.</p>
+                    <div class="problem-stats">
+                        <span class="stat">20-40% crop loss</span>
+                        <span class="stat">$220B global impact</span>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Water Scarcity</h3>
+                    <p>Limited water resources, inefficient irrigation systems, and drought conditions affecting agricultural productivity.</p>
+                    <div class="problem-stats">
+                        <span class="stat">70% water usage</span>
+                        <span class="stat">2.8B people affected</span>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Soil Degradation</h3>
+                    <p>Loss of soil fertility, erosion, and contamination reducing agricultural land productivity.</p>
+                    <div class="problem-stats">
+                        <span class="stat">33% soil degraded</span>
+                        <span class="stat">$400B annual cost</span>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Economic Pressures</h3>
+                    <p>Rising input costs, volatile market prices, and limited access to credit affecting farmer profitability.</p>
+                    <div class="problem-stats">
+                        <span class="stat">30% cost increase</span>
+                        <span class="stat">Low profit margins</span>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Labor Shortage</h3>
+                    <p>Declining rural population, aging farmers, and difficulty finding skilled agricultural workers.</p>
+                    <div class="problem-stats">
+                        <span class="stat">60+ average age</span>
+                        <span class="stat">Labor shortage crisis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <h2>Innovative Solutions</h2>
+            <p class="section-subtitle">Technology-driven approaches to address agricultural challenges</p>
+            
+            <div class="solutions-tabs">
+                <button class="tab-btn active" data-tab="precision">Precision Agriculture</button>
+                <button class="tab-btn" data-tab="sustainable">Sustainable Practices</button>
+                <button class="tab-btn" data-tab="technology">Smart Technology</button>
+                <button class="tab-btn" data-tab="education">Education & Training</button>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-panel active" id="precision">
+                    <div class="solution-grid">
+                        <div class="solution-item">
+                            <h3>IoT Sensors & Monitoring</h3>
+                            <p>Real-time soil moisture, temperature, and nutrient monitoring for optimal crop management.</p>
+                            <ul>
+                                <li>Automated irrigation systems</li>
+                                <li>Precision fertilizer application</li>
+                                <li>Early disease detection</li>
+                            </ul>
+                        </div>
+                        <div class="solution-item">
+                            <h3>Drone Technology</h3>
+                            <p>Aerial monitoring and precision application of inputs for better crop health management.</p>
+                            <ul>
+                                <li>Crop health assessment</li>
+                                <li>Precision spraying</li>
+                                <li>Field mapping and analysis</li>
+                            </ul>
+                        </div>
+                        <div class="solution-item">
+                            <h3>Data Analytics</h3>
+                            <p>AI-powered insights for decision making and predictive agriculture.</p>
+                            <ul>
+                                <li>Yield prediction models</li>
+                                <li>Weather pattern analysis</li>
+                                <li>Market price forecasting</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-panel" id="sustainable">
+                    <div class="solution-grid">
+                        <div class="solution-item">
+                            <h3>Regenerative Agriculture</h3>
+                            <p>Soil health improvement through cover cropping, reduced tillage, and crop rotation.</p>
+                            <ul>
+                                <li>Carbon sequestration</li>
+                                <li>Improved water retention</li>
+                                <li>Natural pest control</li>
+                            </ul>
+                        </div>
+                        <div class="solution-item">
+                            <h3>Water Conservation</h3>
+                            <p>Efficient water management systems and drought-resistant crop varieties.</p>
+                            <ul>
+                                <li>Drip irrigation systems</li>
+                                <li>Rainwater harvesting</li>
+                                <li>Drought-tolerant crops</li>
+                            </ul>
+                        </div>
+                        <div class="solution-item">
+                            <h3>Organic Farming</h3>
+                            <p>Chemical-free farming methods that promote biodiversity and soil health.</p>
+                            <ul>
+                                <li>Natural pest management</li>
+                                <li>Compost and organic fertilizers</li>
+                                <li>Biodiversity preservation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-panel" id="technology">
+                    <div class="solution-grid">
+                        <div class="solution-item">
+                            <h3>Smart Greenhouses</h3>
+                            <p>Climate-controlled environments for year-round production and optimal growing conditions.</p>
+                            <ul>
+                                <li>Automated climate control</li>
+                                <li>LED grow lights</li>
+                                <li>Hydroponic systems</li>
+                            </ul>
+                        </div>
+                        <div class="solution-item">
+                            <h3>Robotic Farming</h3>
+                            <p>Automated machinery for planting, harvesting, and field maintenance.</p>
+                            <ul>
+                                <li>Autonomous tractors</li>
+                                <li>Robotic harvesters</li>
+                                <li>Weed control robots</li>
+                            </ul>
+                        </div>
+                        <div class="solution-item">
+                            <h3>Blockchain Traceability</h3>
+                            <p>Transparent supply chain tracking from farm to consumer.</p>
+                            <ul>
+                                <li>Food safety assurance</li>
+                                <li>Quality certification</li>
+                                <li>Consumer trust building</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-panel" id="education">
+                    <div class="solution-grid">
+                        <div class="solution-item">
+                            <h3>Digital Learning Platforms</h3>
+                            <p>Online courses and training programs for modern farming techniques.</p>
+                            <ul>
+                                <li>Video tutorials</li>
+                                <li>Interactive modules</li>
+                                <li>Expert consultations</li>
+                            </ul>
+                        </div>
+                        <div class="solution-item">
+                            <h3>Farmer Networks</h3>
+                            <p>Community-based knowledge sharing and peer-to-peer learning.</p>
+                            <ul>
+                                <li>Local farmer groups</li>
+                                <li>Success story sharing</li>
+                                <li>Mentorship programs</li>
+                            </ul>
+                        </div>
+                        <div class="solution-item">
+                            <h3>Extension Services</h3>
+                            <p>Government and NGO support for agricultural education and training.</p>
+                            <ul>
+                                <li>Field demonstrations</li>
+                                <li>Research updates</li>
+                                <li>Financial assistance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2>Agricultural Tools & Calculators</h2>
+            <p class="section-subtitle">Practical tools to help farmers make informed decisions</p>
+            
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Fertilizer Calculator</h3>
+                    <p>Calculate optimal fertilizer application rates based on soil test results and crop requirements.</p>
+                    <button class="btn btn-outline" onclick="openCalculator('fertilizer')">Use Calculator</button>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Irrigation Planner</h3>
+                    <p>Determine optimal irrigation schedules based on weather, soil type, and crop needs.</p>
+                    <button class="btn btn-outline" onclick="openCalculator('irrigation')">Use Calculator</button>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Yield Estimator</h3>
+                    <p>Estimate crop yields based on field conditions, weather data, and historical performance.</p>
+                    <button class="btn btn-outline" onclick="openCalculator('yield')">Use Calculator</button>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Profit Calculator</h3>
+                    <p>Calculate potential profits and ROI for different crops and farming practices.</p>
+                    <button class="btn btn-outline" onclick="openCalculator('profit')">Use Calculator</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Rental Section -->
+    <section id="equipment" class="equipment">
+        <div class="container">
+            <h2>Agricultural Equipment Rental</h2>
+            <p class="section-subtitle">Rent high-quality farming equipment at affordable rates</p>
+            
+            <div class="equipment-search">
+                <div class="search-filters">
+                    <select id="equipment-category" class="filter-select">
+                        <option value="">All Categories</option>
+                        <option value="tractors">Tractors</option>
+                        <option value="harvesting">Harvesting Equipment</option>
+                        <option value="planting">Planting Equipment</option>
+                        <option value="irrigation">Irrigation Systems</option>
+                        <option value="tillage">Tillage Equipment</option>
+                    </select>
+                    <select id="equipment-duration" class="filter-select">
+                        <option value="">Rental Duration</option>
+                        <option value="daily">Daily</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="seasonal">Seasonal</option>
+                    </select>
+                    <input type="text" id="equipment-location" placeholder="Enter location" class="filter-input">
+                    <button class="btn btn-primary" onclick="searchEquipment()">Search Equipment</button>
+                </div>
+            </div>
+
+            <div class="equipment-grid" id="equipment-grid">
+                <div class="equipment-card">
+                    <div class="equipment-image">
+                        <i class="fas fa-tractor"></i>
+                    </div>
+                    <div class="equipment-info">
+                        <h3>John Deere 6120M Tractor</h3>
+                        <p class="equipment-category">Tractors</p>
+                        <p class="equipment-description">75 HP tractor with 4WD, perfect for medium to large farms. Includes loader attachment.</p>
+                        <div class="equipment-specs">
+                            <span class="spec">75 HP</span>
+                            <span class="spec">4WD</span>
+                            <span class="spec">Loader Included</span>
+                        </div>
+                        <div class="equipment-pricing">
+                            <div class="price-item">
+                                <span class="duration">Daily</span>
+                                <span class="price">$150/day</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">Weekly</span>
+                                <span class="price">$800/week</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline" onclick="rentEquipment('tractor-1')">Rent Now</button>
+                    </div>
+                </div>
+
+                <div class="equipment-card">
+                    <div class="equipment-image">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="equipment-info">
+                        <h3>Precision Planter 12-Row</h3>
+                        <p class="equipment-category">Planting Equipment</p>
+                        <p class="equipment-description">High-precision 12-row planter with GPS guidance and variable rate seeding.</p>
+                        <div class="equipment-specs">
+                            <span class="spec">12 Rows</span>
+                            <span class="spec">GPS Guided</span>
+                            <span class="spec">Variable Rate</span>
+                        </div>
+                        <div class="equipment-pricing">
+                            <div class="price-item">
+                                <span class="duration">Daily</span>
+                                <span class="price">$200/day</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">Weekly</span>
+                                <span class="price">$1,000/week</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline" onclick="rentEquipment('planter-1')">Rent Now</button>
+                    </div>
+                </div>
+
+                <div class="equipment-card">
+                    <div class="equipment-image">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <div class="equipment-info">
+                        <h3>Combine Harvester</h3>
+                        <p class="equipment-category">Harvesting Equipment</p>
+                        <p class="equipment-description">Self-propelled combine harvester for wheat, corn, and soybean harvesting.</p>
+                        <div class="equipment-specs">
+                            <span class="spec">Self-Propelled</span>
+                            <span class="spec">Multi-Crop</span>
+                            <span class="spec">GPS Ready</span>
+                        </div>
+                        <div class="equipment-pricing">
+                            <div class="price-item">
+                                <span class="duration">Daily</span>
+                                <span class="price">$300/day</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">Weekly</span>
+                                <span class="price">$1,500/week</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline" onclick="rentEquipment('harvester-1')">Rent Now</button>
+                    </div>
+                </div>
+
+                <div class="equipment-card">
+                    <div class="equipment-image">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="equipment-info">
+                        <h3>Center Pivot Irrigation</h3>
+                        <p class="equipment-category">Irrigation Systems</p>
+                        <p class="equipment-description">500m center pivot irrigation system with smart controls and weather monitoring.</p>
+                        <div class="equipment-specs">
+                            <span class="spec">500m Radius</span>
+                            <span class="spec">Smart Controls</span>
+                            <span class="spec">Weather Monitoring</span>
+                        </div>
+                        <div class="equipment-pricing">
+                            <div class="price-item">
+                                <span class="duration">Monthly</span>
+                                <span class="price">$2,000/month</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">Seasonal</span>
+                                <span class="price">$5,000/season</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline" onclick="rentEquipment('irrigation-1')">Rent Now</button>
+                    </div>
+                </div>
+
+                <div class="equipment-card">
+                    <div class="equipment-image">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="equipment-info">
+                        <h3>Rotary Tiller</h3>
+                        <p class="equipment-category">Tillage Equipment</p>
+                        <p class="equipment-description">Heavy-duty rotary tiller for soil preparation and weed control.</p>
+                        <div class="equipment-specs">
+                            <span class="spec">Heavy Duty</span>
+                            <span class="spec">Adjustable Depth</span>
+                            <span class="spec">PTO Driven</span>
+                        </div>
+                        <div class="equipment-pricing">
+                            <div class="price-item">
+                                <span class="duration">Daily</span>
+                                <span class="price">$80/day</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">Weekly</span>
+                                <span class="price">$400/week</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline" onclick="rentEquipment('tiller-1')">Rent Now</button>
+                    </div>
+                </div>
+
+                <div class="equipment-card">
+                    <div class="equipment-image">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <div class="equipment-info">
+                        <h3>Sprayer Boom</h3>
+                        <p class="equipment-category">Application Equipment</p>
+                        <p class="equipment-description">Precision sprayer with GPS guidance for fertilizer and pesticide application.</p>
+                        <div class="equipment-specs">
+                            <span class="spec">GPS Guided</span>
+                            <span class="spec">Variable Rate</span>
+                            <span class="spec">24m Boom</span>
+                        </div>
+                        <div class="equipment-pricing">
+                            <div class="price-item">
+                                <span class="duration">Daily</span>
+                                <span class="price">$120/day</span>
+                            </div>
+                            <div class="price-item">
+                                <span class="duration">Weekly</span>
+                                <span class="price">$600/week</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline" onclick="rentEquipment('sprayer-1')">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agricultural Store Section -->
+    <section id="store" class="store">
+        <div class="container">
+            <h2>Agricultural Store</h2>
+            <p class="section-subtitle">Quality fertilizers, seeds, and farming supplies at competitive prices</p>
+            
+            <div class="store-categories">
+                <button class="category-btn active" data-category="all">All Products</button>
+                <button class="category-btn" data-category="fertilizers">Fertilizers</button>
+                <button class="category-btn" data-category="seeds">Seeds</button>
+                <button class="category-btn" data-category="pesticides">Pesticides</button>
+                <button class="category-btn" data-category="tools">Tools</button>
+                <button class="category-btn" data-category="supplies">Supplies</button>
+            </div>
+
+            <div class="store-grid" id="store-grid">
+                <div class="product-card" data-category="fertilizers">
+                    <div class="product-image">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>NPK 20-20-20 Fertilizer</h3>
+                        <p class="product-category">Fertilizers</p>
+                        <p class="product-description">Balanced NPK fertilizer for all crops. 50kg bag.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">(4.8/5)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$45.00</span>
+                            <span class="original-price">$50.00</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="addToCart('fertilizer-1')">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="seeds">
+                    <div class="product-image">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Hybrid Corn Seeds</h3>
+                        <p class="product-category">Seeds</p>
+                        <p class="product-description">High-yield hybrid corn seeds. 50,000 seeds per bag.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">(4.5/5)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$120.00</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="addToCart('seeds-1')">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="pesticides">
+                    <div class="product-image">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Pesticide</h3>
+                        <p class="product-category">Pesticides</p>
+                        <p class="product-description">Eco-friendly organic pesticide. 1 liter bottle.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">(4.9/5)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$25.00</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="addToCart('pesticide-1')">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="tools">
+                    <div class="product-image">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Garden Tool Set</h3>
+                        <p class="product-category">Tools</p>
+                        <p class="product-description">Complete set of hand tools for small-scale farming.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">(4.3/5)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$85.00</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="addToCart('tools-1')">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="fertilizers">
+                    <div class="product-image">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Compost Organic</h3>
+                        <p class="product-category">Fertilizers</p>
+                        <p class="product-description">Premium organic compost. 25kg bag.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">(4.7/5)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$35.00</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="addToCart('compost-1')">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="supplies">
+                    <div class="product-image">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Drip Irrigation Kit</h3>
+                        <p class="product-category">Supplies</p>
+                        <p class="product-description">Complete drip irrigation system for 100m² area.</p>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">(4.4/5)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$150.00</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="addToCart('irrigation-1')">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organic Food Section -->
+    <section id="organic" class="organic">
+        <div class="container">
+            <h2>Organic Food Marketplace</h2>
+            <p class="section-subtitle">Fresh, organic produce directly from local farms</p>
+            
+            <div class="organic-featured">
+                <div class="featured-content">
+                    <h3>Farm-to-Table Freshness</h3>
+                    <p>Connect with local organic farmers and get fresh, chemical-free produce delivered to your doorstep. Support sustainable agriculture while enjoying the best quality food.</p>
+                    <div class="organic-benefits">
+                        <div class="benefit-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>100% Organic</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-truck"></i>
+                            <span>Fresh Delivery</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Local Farmers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <i class="fas fa-apple-alt"></i>
+                </div>
+            </div>
+
+            <div class="organic-categories">
+                <div class="organic-category">
+                    <div class="category-icon">
+                        <i class="fas fa-carrot"></i>
+                    </div>
+                    <h4>Vegetables</h4>
+                    <p>Fresh organic vegetables from local farms</p>
+                    <button class="btn btn-outline" onclick="viewCategory('vegetables')">Browse</button>
+                </div>
+                <div class="organic-category">
+                    <div class="category-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <h4>Fruits</h4>
+                    <p>Seasonal organic fruits and berries</p>
+                    <button class="btn btn-outline" onclick="viewCategory('fruits')">Browse</button>
+                </div>
+                <div class="organic-category">
+                    <div class="category-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h4>Grains</h4>
+                    <p>Organic rice, wheat, and other grains</p>
+                    <button class="btn btn-outline" onclick="viewCategory('grains')">Browse</button>
+                </div>
+                <div class="organic-category">
+                    <div class="category-icon">
+                        <i class="fas fa-egg"></i>
+                    </div>
+                    <h4>Dairy & Eggs</h4>
+                    <p>Organic dairy products and free-range eggs</p>
+                    <button class="btn btn-outline" onclick="viewCategory('dairy')">Browse</button>
+                </div>
+            </div>
+
+            <div class="organic-producers">
+                <h3>Featured Local Producers</h3>
+                <div class="producers-grid">
+                    <div class="producer-card">
+                        <div class="producer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h4>Green Valley Farm</h4>
+                        <p>Specializes in organic vegetables and herbs</p>
+                        <div class="producer-rating">
+                            <span class="stars">★★★★★</span>
+                            <span>4.9/5</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="viewProducer('green-valley')">View Products</button>
+                    </div>
+                    <div class="producer-card">
+                        <div class="producer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h4>Sunrise Orchard</h4>
+                        <p>Premium organic fruits and berries</p>
+                        <div class="producer-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span>4.7/5</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="viewProducer('sunrise-orchard')">View Products</button>
+                    </div>
+                    <div class="producer-card">
+                        <div class="producer-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h4>Meadow Dairy</h4>
+                        <p>Organic dairy products and free-range eggs</p>
+                        <div class="producer-rating">
+                            <span class="stars">★★★★★</span>
+                            <span>4.8/5</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="viewProducer('meadow-dairy')">View Products</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expert Consultation Section -->
+    <section id="experts" class="experts">
+        <div class="container">
+            <h2>Talk with Agricultural Experts</h2>
+            <p class="section-subtitle">Get personalized advice from certified agricultural professionals</p>
+            
+            <div class="expert-categories">
+                <div class="expert-category">
+                    <div class="category-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Crop Science</h3>
+                    <p>Expert advice on crop selection, planting, and cultivation techniques</p>
+                    <button class="btn btn-outline" onclick="bookExpert('crop-science')">Book Consultation</button>
+                </div>
+                <div class="expert-category">
+                    <div class="category-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Pest Management</h3>
+                    <p>Integrated pest management and disease control strategies</p>
+                    <button class="btn btn-outline" onclick="bookExpert('pest-management')">Book Consultation</button>
+                </div>
+                <div class="expert-category">
+                    <div class="category-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Irrigation</h3>
+                    <p>Water management and irrigation system optimization</p>
+                    <button class="btn btn-outline" onclick="bookExpert('irrigation')">Book Consultation</button>
+                </div>
+                <div class="expert-category">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Business Planning</h3>
+                    <p>Farm business planning and financial management</p>
+                    <button class="btn btn-outline" onclick="bookExpert('business')">Book Consultation</button>
+                </div>
+            </div>
+
+            <div class="expert-profiles">
+                <h3>Our Expert Team</h3>
+                <div class="experts-grid">
+                    <div class="expert-card">
+                        <div class="expert-photo">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h4>Dr. Sarah Johnson</h4>
+                        <p class="expert-title">Crop Science Specialist</p>
+                        <p class="expert-experience">15+ years experience in sustainable agriculture</p>
+                        <div class="expert-rating">
+                            <span class="stars">★★★★★</span>
+                            <span>4.9/5 (127 reviews)</span>
+                        </div>
+                        <div class="expert-availability">
+                            <span class="status available">Available Now</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="bookExpertProfile('sarah-johnson')">Book Session</button>
+                    </div>
+
+                    <div class="expert-card">
+                        <div class="expert-photo">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h4>Michael Chen</h4>
+                        <p class="expert-title">Pest Management Expert</p>
+                        <p class="expert-experience">12+ years in integrated pest management</p>
+                        <div class="expert-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span>4.7/5 (89 reviews)</span>
+                        </div>
+                        <div class="expert-availability">
+                            <span class="status available">Available Now</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="bookExpertProfile('michael-chen')">Book Session</button>
+                    </div>
+
+                    <div class="expert-card">
+                        <div class="expert-photo">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h4>Dr. Emily Rodriguez</h4>
+                        <p class="expert-title">Irrigation Specialist</p>
+                        <p class="expert-experience">10+ years in water management systems</p>
+                        <div class="expert-rating">
+                            <span class="stars">★★★★★</span>
+                            <span>4.8/5 (95 reviews)</span>
+                        </div>
+                        <div class="expert-availability">
+                            <span class="status busy">Busy - Book Later</span>
+                        </div>
+                        <button class="btn btn-outline" onclick="bookExpertProfile('emily-rodriguez')">Schedule</button>
+                    </div>
+
+                    <div class="expert-card">
+                        <div class="expert-photo">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h4>James Wilson</h4>
+                        <p class="expert-title">Agricultural Business Consultant</p>
+                        <p class="expert-experience">20+ years in farm business management</p>
+                        <div class="expert-rating">
+                            <span class="stars">★★★★★</span>
+                            <span>4.9/5 (156 reviews)</span>
+                        </div>
+                        <div class="expert-availability">
+                            <span class="status available">Available Now</span>
+                        </div>
+                        <button class="btn btn-primary" onclick="bookExpertProfile('james-wilson')">Book Session</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="consultation-types">
+                <h3>Consultation Options</h3>
+                <div class="consultation-grid">
+                    <div class="consultation-option">
+                        <div class="option-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h4>Video Call</h4>
+                        <p>30-60 minute video consultation</p>
+                        <div class="option-price">$75/hour</div>
+                        <button class="btn btn-outline" onclick="bookConsultation('video')">Book Video Call</button>
+                    </div>
+                    <div class="consultation-option">
+                        <div class="option-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Phone Call</h4>
+                        <p>30-60 minute phone consultation</p>
+                        <div class="option-price">$50/hour</div>
+                        <button class="btn btn-outline" onclick="bookConsultation('phone')">Book Phone Call</button>
+                    </div>
+                    <div class="consultation-option">
+                        <div class="option-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Farm Visit</h4>
+                        <p>On-site farm inspection and advice</p>
+                        <div class="option-price">$150/visit</div>
+                        <button class="btn btn-outline" onclick="bookConsultation('visit')">Book Farm Visit</button>
+                    </div>
+                    <div class="consultation-option">
+                        <div class="option-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h4>Chat Support</h4>
+                        <p>Quick questions via chat</p>
+                        <div class="option-price">$25/session</div>
+                        <button class="btn btn-outline" onclick="bookConsultation('chat')">Start Chat</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Section -->
+    <section id="weather" class="weather">
+        <div class="container">
+            <h2>Weather & Climate Data</h2>
+            <p class="section-subtitle">Real-time weather information and agricultural forecasts</p>
+            
+            <div class="weather-dashboard">
+                <div class="weather-card">
+                    <h3>Current Conditions</h3>
+                    <div class="weather-info">
+                        <div class="weather-item">
+                            <i class="fas fa-thermometer-half"></i>
+                            <span>Temperature: <span id="current-temp">--°C</span></span>
+                        </div>
+                        <div class="weather-item">
+                            <i class="fas fa-tint"></i>
+                            <span>Humidity: <span id="current-humidity">--%</span></span>
+                        </div>
+                        <div class="weather-item">
+                            <i class="fas fa-wind"></i>
+                            <span>Wind: <span id="current-wind">-- km/h</span></span>
+                        </div>
+                        <div class="weather-item">
+                            <i class="fas fa-cloud-rain"></i>
+                            <span>Rainfall: <span id="current-rain">-- mm</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="weather-card">
+                    <h3>7-Day Forecast</h3>
+                    <div class="forecast-grid" id="forecast-grid">
+                        <!-- Forecast items will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="weather-card">
+                    <h3>Agricultural Alerts</h3>
+                    <div class="alerts-list" id="alerts-list">
+                        <div class="alert-item">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <span>High temperature warning: Consider irrigation scheduling</span>
+                        </div>
+                        <div class="alert-item">
+                            <i class="fas fa-cloud-rain"></i>
+                            <span>Rain expected in 2 days: Delay fertilizer application</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-subtitle">Connect with agricultural experts and get personalized advice</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@agrisolutions.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Farm Road, Agriculture City, AC 12345</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="subject" name="subject" required title="Select inquiry subject">
+                            <option value="">Select Subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="technical">Technical Support</option>
+                            <option value="consultation">Farm Consultation</option>
+                            <option value="partnership">Partnership</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-seedling"></i>
+                        <span>AgriSolutions</span>
+                    </div>
+                    <p>Empowering farmers with innovative solutions for sustainable agriculture.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#problems">Problems</a></li>
+                        <li><a href="#solutions">Solutions</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#weather">Weather</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AgriSolutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Calculator Modals -->
+    <div id="calculator-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="calculator-content">
+                <!-- Calculator content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
